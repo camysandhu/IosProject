@@ -17,6 +17,8 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         backButton()
+        signupPassword.isSecureTextEntry = true
+        
 
     }
     private func backButton()

@@ -26,7 +26,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="welcomeVC" id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,6 +52,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3hY-Fe-J50"/>
+                                    <segue destination="mnW-L2-BIZ" kind="show" id="6Hl-a0-H5f"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B15-Hq-aB7">
@@ -74,7 +75,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="1bF-ZD-c9L">
             <objects>
-                <viewController id="EYd-dv-2CI" customClass="SignUpViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="welcomeVC" id="EYd-dv-2CI" customClass="SignUpViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wYX-TL-zWv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,6 +163,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnA-9m-HhN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="942.02898550724649" y="110.49107142857143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bqu-Hx-aqr">
+            <objects>
+                <viewController id="mnW-L2-BIZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RLc-5y-LAL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="JoL-ms-HjQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kSq-0h-amj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u5A-gd-Q8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="837"/>
         </scene>
     </scenes>
 </document>

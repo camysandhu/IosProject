@@ -20,55 +20,53 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func signupSubmitBtn(_ sender: Any) {
-    
-    
-  if(signupUsername.text?.count)! > 5
-      {
-        if((signupEmail.text) != nil)
-          {
-            if((signupPassword.text) != nil)
-              {
-                  if(signupAddress.text?.count)! > 3
-                  {
-                       user.set(signupUsername.text, forKey: "username")
-                       user.set(signupPassword.text, forKey: "password")
-                       user.set(signupEmail.text, forKey: "email")
-                       user.set(signupAddress.text, forKey: "address")
-                      
-                      let sb = UIStoryboard(name: "Main", bundle: nil)
-                                             let welcomeVC = sb.instantiateViewController(withIdentifier: "welcomeVC") as! WelcomeViewController
-                                             self.navigationController?.pushViewController(welcomeVC, animated: true)
-                  }
-                  else
-                  {
-                      let signUpValidate = UIAlertController(title: "ADDRESS ALERT", message: "Address ought to be of min 3 length.", preferredStyle: .alert)
-                          signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
-                          self.present(signUpValidate, animated: true)
-                   }
-                  
-                 
-              }
-              else
-              {
-                  let signUpValidate = UIAlertController(title: "PASSWORD ALERT", message: "Password should contain one uppercase, one digit, one lowercase and length 8.",preferredStyle: .alert)
-                  signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
-                  self.present(signUpValidate, animated: true)
-              }
-          }
-          else
-          {
-              let signUpValidate = UIAlertController(title: "EMAIL ALERT", message: "Incorrect Email format.", preferredStyle: .alert)
-                  signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
-                  self.present(signUpValidate, animated: true)
-           }
-      }
-      else
-      {
-          let signUpValidate = UIAlertController(title: "USERNAME ALERT", message: "Username needs to be of length 6.", preferredStyle: .alert)
-          signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
-          self.present(signUpValidate, animated: true)
-      }
-  }
+        if(signupUsername.text?.count)! > 5
+        {
+            if(signupEmail.text?.verifyingEmail())!
+            {
+                if(signupPassword.text?.verifyingPassword())!
+                {
+                    if(signupAddress.text?.count)! > 3
+                    {
+                         user.set(signupUsername.text, forKey: "username")
+                         user.set(signupPassword.text, forKey: "password")
+                         user.set(signupEmail.text, forKey: "email")
+                         user.set(signupAddress.text, forKey: "address")
+                        
+                        let sb = UIStoryboard(name: "Main", bundle: nil)
+                                               let welcomeVC = sb.instantiateViewController(withIdentifier: "welcomeVC") as! WelcomeViewController
+                                               self.navigationController?.pushViewController(welcomeVC, animated: true)
+                    }
+                    else
+                    {
+                        let signUpValidate = UIAlertController(title: "ADDRESS ALERT", message: "Address ought to be of min 3 length.", preferredStyle: .alert)
+                            signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
+                            self.present(signUpValidate, animated: true)
+                     }
+                    
+                   
+                }
+                else
+                {
+                    let signUpValidate = UIAlertController(title: "PASSWORD ALERT", message: "Password should contain one uppercase, one digit, one lowercase and length 8.",preferredStyle: .alert)
+                    signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
+                    self.present(signUpValidate, animated: true)
+                }
+            }
+            else
+            {
+                let signUpValidate = UIAlertController(title: "EMAIL ALERT", message: "Incorrect Email format.", preferredStyle: .alert)
+                    signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
+                    self.present(signUpValidate, animated: true)
+             }
+        }
+        else
+        {
+            let signUpValidate = UIAlertController(title: "USERNAME ALERT", message: "Username needs to be of length 6.", preferredStyle: .alert)
+            signUpValidate.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
+            self.present(signUpValidate, animated: true)
+        }
+    }
   
 }
 

@@ -15,4 +15,17 @@ func verifyingEmail() -> Bool{
     let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
     return emailTest.evaluate(with: self)
 }
+    //https://stackoverflow.com/questions/39284607/how-to-implement-a-regex-for-password-validation-in-swift
+        
+    func verifyingPassword() -> Bool{
+            
+            let passwordTest = NSPredicate(format: "SELF MATCHES %@", "(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8,}")
+            return passwordTest.evaluate(with: self)
+        // Minimum one uppercase// Minimum one digit// Minimum one lowercase// 8 characters total
+        }
+
+    func addingDollar() ->String
+    {
+        return ("$\(self)")
+    }
 }

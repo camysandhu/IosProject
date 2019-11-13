@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
         </scene>
-        <!--Welcome View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="1bF-ZD-c9L">
             <objects>
-                <viewController id="EYd-dv-2CI" customClass="WelcomeViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EYd-dv-2CI" customClass="SignUpViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wYX-TL-zWv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,11 +105,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="signupSubmitBtn:" destination="EYd-dv-2CI" eventType="touchUpInside" id="VPZ-w8-qO5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Xfi-98-WvJ"/>
                     </view>
+                    <connections>
+                        <outlet property="signupAddress" destination="1kA-4X-AG2" id="r3F-pG-yL3"/>
+                        <outlet property="signupEmail" destination="gBs-Rx-odg" id="bYl-Ek-i0y"/>
+                        <outlet property="signupPassword" destination="qI1-ZC-OhU" id="uiD-9Y-Rcz"/>
+                        <outlet property="signupUsername" destination="2aG-sj-Yha" id="WI9-wN-VO6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnA-9m-HhN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

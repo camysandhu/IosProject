@@ -8,11 +8,20 @@ import UIKit
 
 class WelcomeViewController: UIViewController{
 
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
 
-
+    @IBAction func signupBtn(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func loginBtn(_ sender: Any)
+    {
+        
+    }
 }
 

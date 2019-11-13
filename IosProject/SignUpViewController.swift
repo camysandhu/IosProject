@@ -16,8 +16,22 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signupAddress: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        backButton()
 
     }
+    private func backButton()
+       {
+           let btnBack=UIBarButtonItem(title: "Welcome", style: .done, target: self, action: #selector(SignUpViewController.back(sender:)))
+           
+           navigationItem.leftBarButtonItem=btnBack
+       }
+       
+       @objc
+       func back(sender: UIBarButtonItem)
+       {
+           
+           navigationController?.popViewController(animated: true)
+       }
     
     @IBAction func signupSubmitBtn(_ sender: Any) {
         if(signupUsername.text?.count)! > 5
@@ -67,6 +81,8 @@ class SignUpViewController: UIViewController {
             self.present(signUpValidate, animated: true)
         }
     }
+    
+   
   
 }
 

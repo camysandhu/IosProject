@@ -8,6 +8,7 @@ import Foundation
 
 class Cart
 {
+    static let cartAccess = Cart()
     private var cartid:Int?
     var productid:String?
     var quantity:Int?

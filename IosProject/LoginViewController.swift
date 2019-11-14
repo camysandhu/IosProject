@@ -53,7 +53,7 @@ let userLogin = UserDefaults.standard
                 }
                 //moving to Home Page
                 let sb = UIStoryboard(name: "Main", bundle: nil)
-                let menuVC = sb.instantiateViewController(withIdentifier: "menuVC") as! MenuViewController
+                let menuVC = sb.instantiateViewController(withIdentifier: "menuVC") as! MenuTableViewController
                 self.navigationController?.pushViewController(menuVC, animated: true)
                 
               

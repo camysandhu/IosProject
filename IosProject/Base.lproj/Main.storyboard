@@ -213,6 +213,9 @@
                                 <rect key="frame" x="291" y="433" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Show Password"/>
+                                <connections>
+                                    <action selector="loginShowPassBtn:" destination="mnW-L2-BIZ" eventType="touchUpInside" id="app-1K-j6p"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOd-ko-cnf">
                                 <rect key="frame" x="121" y="576" width="144" height="46"/>

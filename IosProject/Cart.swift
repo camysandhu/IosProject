@@ -8,5 +8,9 @@ import Foundation
 
 class Cart
 {
-    
+    private var cartid:Int?
+    var productid:String?
+    var quantity:Int?
+    var totalPrice = Int()
+    var paymentMethod = false
 }

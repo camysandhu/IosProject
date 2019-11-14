@@ -27,4 +27,15 @@ init()
     self.productPrice = Float()
     self.productQuantity = Int()
 }
+    init (productid:String ,productName:String ,productBrand:String,productDescription:String, productPrice:Float,productFImage:String,productBImage:String, productQuantity:Int)
+    {
+        self.productid = productid
+        self.productName = productName
+        self.productFImage = productFImage
+        self.productBImage = productBImage
+        self.productBrand = productBrand
+        self.productDescription = productDescription
+        self.productPrice = productPrice
+        self.productQuantity = Int()
+    }
 }

@@ -14,6 +14,8 @@ class Cart
     var totalPrice = Int()
     var paymentMethod = false
     
+     var productList = [Products]()
+    
      init()
     {
         self.cartid=Int()

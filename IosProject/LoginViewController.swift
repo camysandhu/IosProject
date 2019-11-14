@@ -38,6 +38,7 @@ let userLogin = UserDefaults.standard
     @IBAction func loginShowPassBtn(_ sender: Any)
     {
         loginPassword.isSecureTextEntry = false
+        
     }
     @IBAction func loginBtn(_ sender: Any)
     {

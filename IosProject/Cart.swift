@@ -15,6 +15,7 @@ class Cart
     var paymentMethod = false
     
      var productList = [Products]()
+     var orderedProductList = [Array<Products>]()
     
      init()
     {

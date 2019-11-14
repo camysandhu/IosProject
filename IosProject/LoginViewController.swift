@@ -51,7 +51,10 @@ let userLogin = UserDefaults.standard
                     userLogin.removeObject(forKey: "loginuser")
                     userLogin.removeObject(forKey: "loginpass")
                 }
-
+                //moving to Home Page
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                let menuVC = sb.instantiateViewController(withIdentifier: "menuVC") as! MenuViewController
+                self.navigationController?.pushViewController(menuVC, animated: true)
                 
               
                 

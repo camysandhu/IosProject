@@ -244,10 +244,10 @@
             </objects>
             <point key="canvasLocation" x="763.768115942029" y="836.38392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="FBn-0A-Zpf">
             <objects>
-                <viewController id="ZAd-Bz-OAm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="menuVC" id="ZAd-Bz-OAm" customClass="MenuViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L3O-pJ-dFl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

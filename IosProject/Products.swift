@@ -7,6 +7,7 @@
 import Foundation
 class Products
 {
+static let orderAccess = Products()
 let productid:String
 var productFImage:String
 var productBImage:String

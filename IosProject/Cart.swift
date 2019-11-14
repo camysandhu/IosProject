@@ -16,6 +16,7 @@ class Cart
     
      var productList = [Products]()
      var orderedProductList = [Array<Products>]()
+     var orderedProduct = Dictionary<Int,[Array<Products>]>()
     
      init()
     {

@@ -39,4 +39,9 @@ init()
         self.productPrice = productPrice
         self.productQuantity = Int()
     }
+    
+    func addproducts(pid:Int,prod:Products)
+       {
+           productdetails.updateValue(prod, forKey: pid)
+       }
 }

@@ -13,4 +13,15 @@ class Cart
     var quantity:Int?
     var totalPrice = Int()
     var paymentMethod = false
+    
+     init()
+    {
+        self.cartid=Int()
+        self.productid=String()
+        self.quantity=Int()
+
+    }
+    
+    
+    
 }

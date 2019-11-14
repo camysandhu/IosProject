@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="942.02898550724649" y="110.49107142857143"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="Bqu-Hx-aqr">
             <objects>
-                <viewController id="mnW-L2-BIZ" sceneMemberID="viewController">
+                <viewController id="mnW-L2-BIZ" customClass="LoginViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RLc-5y-LAL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,11 +209,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iF-pm-P9Z">
+                                <rect key="frame" x="291" y="433" width="108" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show Password"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOd-ko-cnf">
+                                <rect key="frame" x="121" y="576" width="144" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginBtn:" destination="mnW-L2-BIZ" eventType="touchUpInside" id="vQx-2q-UP5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="JoL-ms-HjQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="kSq-0h-amj"/>
+                    <connections>
+                        <outlet property="loginPassword" destination="a05-ui-CDf" id="hgJ-nb-Nbi"/>
+                        <outlet property="loginUsername" destination="zic-Ff-eNb" id="dC3-Od-3Bd"/>
+                        <outlet property="remembermeBtn" destination="RSG-SO-931" id="Nu7-QK-Par"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u5A-gd-Q8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -21,7 +21,13 @@ class Cart
         self.quantity=Int()
 
     }
-    
+    init(productid:String,cartid:Int,quantity:Int,dateadded:Date)
+    {
+        self.productid=productid
+        self.cartid=cartid
+        self.quantity=quantity
+
+    }
     
     
 }

@@ -15,6 +15,7 @@ let userLogin = UserDefaults.standard
     @IBOutlet weak var remembermeBtn: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //https://stackoverflow.com/questions/37873119/how-to-toggle-a-uitextfield-secure-text-entry-hide-password-in-swift
         loginPassword.isSecureTextEntry = true
         
         if let loginUser = userLogin.string(forKey: "loginuser")

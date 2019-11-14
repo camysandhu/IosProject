@@ -33,6 +33,11 @@ class Cart
         self.quantity=quantity
 
     }
+    func addcartitem(addproduct : Products)
+       {
+           self.productList.append(addproduct)
+           print(productList.count)
+       }
     
     
 }

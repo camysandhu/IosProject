@@ -15,6 +15,7 @@ var productBrand : String
 var productDescription : String
 var productPrice:Float
 var productQuantity:Int
+var productdetails=Dictionary<Int,Products>()
 
 init()
 {

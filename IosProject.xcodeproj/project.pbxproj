@@ -20,6 +20,7 @@
 		9BE7C8C1237E1778007AC2C2 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BC237E1778007AC2C2 /* MenuTableViewController.swift */; };
 		9BE7C8C2237E1778007AC2C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BD237E1778007AC2C2 /* SignUpViewController.swift */; };
 		9BE7C8C3237E1778007AC2C2 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BE237E1778007AC2C2 /* Products.swift */; };
+		9BE7C8CC237E37DB007AC2C2 /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8CB237E37DB007AC2C2 /* ProductsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9BE7C8BC237E1778007AC2C2 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		9BE7C8BD237E1778007AC2C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9BE7C8BE237E1778007AC2C2 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		9BE7C8CB237E37DB007AC2C2 /* ProductsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */,
 				9BE7C8B6237E175E007AC2C2 /* Cart.swift */,
 				5502F229237CA2BE0068C1F7 /* Info.plist */,
+				9BE7C8CB237E37DB007AC2C2 /* ProductsListViewController.swift */,
 			);
 			path = IosProject;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				9BE7C8C0237E1778007AC2C2 /* verfyingValidations.swift in Sources */,
 				5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */,
 				5502F21E237CA2BD0068C1F7 /* SceneDelegate.swift in Sources */,
+				9BE7C8CC237E37DB007AC2C2 /* ProductsListViewController.swift in Sources */,
 				9BE7C8C1237E1778007AC2C2 /* MenuTableViewController.swift in Sources */,
 				9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */,
 				9BE7C8C2237E1778007AC2C2 /* SignUpViewController.swift in Sources */,

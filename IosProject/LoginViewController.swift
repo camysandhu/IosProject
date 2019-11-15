@@ -43,7 +43,8 @@ let userLogin = UserDefaults.standard
     }
     @IBAction func loginBtn(_ sender: Any)
     {
-        if (loginUsername.text?.count)! > 1 && (loginPassword.text?.count)! > 1{
+        if (loginUsername.text?.count)! > 1 && (loginPassword.text?.count)! > 1
+        {
             if loginUsername.text! == (userLogin.string(forKey: "username")!) && loginPassword.text! == (userLogin.string(forKey: "password")!){
 
                 if remembermeBtn.isOn{

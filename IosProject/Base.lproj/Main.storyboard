@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -40,7 +41,6 @@
                                 </state>
                                 <connections>
                                     <action selector="signupBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CHS-9V-gk9"/>
-                                    <segue destination="EYd-dv-2CI" kind="show" identifier="" id="Esm-lD-Hiq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xro-jz-ahT">
@@ -52,7 +52,6 @@
                                 </state>
                                 <connections>
                                     <action selector="loginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3hY-Fe-J50"/>
-                                    <segue destination="mnW-L2-BIZ" kind="show" id="6Hl-a0-H5f"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B15-Hq-aB7">
@@ -67,6 +66,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="PDK-DN-EVf"/>
+                    <connections>
+                        <segue destination="EYd-dv-2CI" kind="show" identifier="moveToSignUp" id="XdG-De-ukI"/>
+                        <segue destination="mnW-L2-BIZ" kind="show" identifier="moveToLogin" id="7g2-MV-28n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -377,13 +380,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="103"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Logout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xf6-kI-ZoR">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Logout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xf6-kI-ZoR">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="103"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logut2x" translatesAutoresizingMaskIntoConstraints="NO" id="N2l-Tw-SpD">
+                                                    <rect key="frame" x="0.0" y="-13" width="80" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.76247698915349749" green="0.97520862089484572" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
@@ -402,11 +409,60 @@
             </objects>
             <point key="canvasLocation" x="1686.9565217391305" y="834.375"/>
         </scene>
+        <!--Products List View Controller-->
+        <scene sceneID="1M3-zL-kLH">
+            <objects>
+                <viewController id="ReB-uz-j1G" customClass="ProductsListViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XRL-vI-8kf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="M4Y-fp-1WY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="830"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="upm-y3-55a">
+                                    <size key="itemSize" width="176" height="209"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="oCx-mt-yYg">
+                                        <rect key="frame" x="0.0" y="0.0" width="176" height="209"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dfk-1Z-50X">
+                                            <rect key="frame" x="0.0" y="0.0" width="176" height="209"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W6l-24-ZsV">
+                                                    <rect key="frame" x="8" y="0.0" width="164" height="199"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="176" height="209"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="HRx-cB-7Ib"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="M4Y-fp-1WY" id="9mC-LQ-prr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6rd-En-2VK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2502.898550724638" y="837.72321428571422"/>
+        </scene>
     </scenes>
     <resources>
         <image name="about2x" width="24" height="24"/>
         <image name="account2x" width="24" height="24"/>
         <image name="eye.fill" catalog="system" width="64" height="38"/>
+        <image name="logut2x" width="24" height="24"/>
         <image name="order2x" width="24" height="24"/>
         <image name="product2x" width="24" height="24"/>
         <image name="shopping2x" width="24" height="24"/>

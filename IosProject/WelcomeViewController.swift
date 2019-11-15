@@ -16,12 +16,12 @@ class WelcomeViewController: UIViewController{
 
     @IBAction func signupBtn(_ sender: Any)
     {
-        
+    performSegue(withIdentifier: "moveToSignUp", sender: nil)
     }
     
     @IBAction func loginBtn(_ sender: Any)
     {
-        
+         performSegue(withIdentifier: "moveToLogin", sender: nil)
     }
 }
 

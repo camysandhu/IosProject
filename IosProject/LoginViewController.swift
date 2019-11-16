@@ -22,7 +22,7 @@ let userLogin = UserDefaults.standard
         {
             loginUsername.text = loginUser
             
-            if let loginPass = userLogin.string(forKey: "loginuser")
+            if let loginPass = userLogin.string(forKey: "loginPass")
             {
                 loginPassword.text = loginPass
                 remembermeBtn.isOn = true

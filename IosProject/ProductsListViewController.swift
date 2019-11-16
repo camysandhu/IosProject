@@ -11,6 +11,15 @@ import UIKit
 
 class ProductsListViewController: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate
 {
+    
+     var icons = [""]
+    
+     @IBOutlet weak var collectionView: UICollectionView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         <#code#>
     }
@@ -20,12 +29,6 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
     }
     
 
-     @IBOutlet weak var collectionView: UICollectionView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-    }
     
 
 

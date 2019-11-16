@@ -180,7 +180,7 @@
                                 <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="itemCartCell" rowHeight="403" id="Xef-1U-2zM" customClass="cartItemsTableViewCell" customModule="OnlineShopping" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="itemCartCell" rowHeight="403" id="Xef-1U-2zM" customClass="CartItemsTableViewCell">
                                         <rect key="frame" x="0.0" y="28" width="414" height="403"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xef-1U-2zM" id="1Af-d4-Yss" customClass="CartItemListableViewCell" customModule="IosProject" customModuleProvider="target">
@@ -249,14 +249,22 @@
                                                 </label>
                                             </subviews>
                                             <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <outlet property="cartImage" destination="tMz-Bz-v04" id="MZq-DQ-rTC"/>
+                                                <outlet property="cartName" destination="dU9-Ap-IGw" id="Jkd-jI-N1y"/>
+                                                <outlet property="cartPrice" destination="oHQ-hR-NvW" id="XRQ-lc-Fml"/>
+                                                <outlet property="cartQuantity" destination="7hy-lU-pFn" id="rfS-Co-nx0"/>
+                                                <outlet property="cartTotalPrice" destination="UTS-Pq-1T4" id="WS2-lK-BvK"/>
+                                            </connections>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.55420577530000004" green="0.83099454640000003" blue="0.98433297870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
-                                            <outlet property="cartImage" destination="tMz-Bz-v04" id="cO1-fK-QB2"/>
-                                            <outlet property="cartName" destination="dU9-Ap-IGw" id="zfS-kr-9cn"/>
-                                            <outlet property="cartPrice" destination="UTS-Pq-1T4" id="acF-P7-76p"/>
-                                            <outlet property="cartQuantity" destination="7hy-lU-pFn" id="hFN-a2-QRt"/>
+                                            <outlet property="cartImage" destination="tMz-Bz-v04" id="bmV-gG-ek0"/>
+                                            <outlet property="cartName" destination="dU9-Ap-IGw" id="UOT-2t-kwP"/>
+                                            <outlet property="cartPrice" destination="oHQ-hR-NvW" id="Db7-MG-uqi"/>
+                                            <outlet property="cartQuantity" destination="7hy-lU-pFn" id="ex2-cN-fsr"/>
                                             <outlet property="cartSinglePrice" destination="oHQ-hR-NvW" id="BYF-0c-Ndg"/>
+                                            <outlet property="cartTotalPrice" destination="UTS-Pq-1T4" id="Egn-Ua-hpm"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -515,10 +523,10 @@
             </objects>
             <point key="canvasLocation" x="1686.9565217391305" y="834.375"/>
         </scene>
-        <!--Products List View Controller-->
+        <!--Product List View Controller-->
         <scene sceneID="1M3-zL-kLH">
             <objects>
-                <viewController id="ReB-uz-j1G" customClass="ProductsListViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ReB-uz-j1G" customClass="ProductListViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XRL-vI-8kf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

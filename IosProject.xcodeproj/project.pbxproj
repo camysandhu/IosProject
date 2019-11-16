@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		399A9239237E7CCB0008B61A /* oppo.png in Resources */ = {isa = PBXBuildFile; fileRef = 399A9233237E7CCB0008B61A /* oppo.png */; };
+		399A923A237E7CCB0008B61A /* vivo.png in Resources */ = {isa = PBXBuildFile; fileRef = 399A9234237E7CCB0008B61A /* vivo.png */; };
+		399A923B237E7CCB0008B61A /* mi.png in Resources */ = {isa = PBXBuildFile; fileRef = 399A9235237E7CCB0008B61A /* mi.png */; };
+		399A923C237E7CCB0008B61A /* htc.png in Resources */ = {isa = PBXBuildFile; fileRef = 399A9236237E7CCB0008B61A /* htc.png */; };
+		399A923D237E7CCB0008B61A /* samsung.png in Resources */ = {isa = PBXBuildFile; fileRef = 399A9237237E7CCB0008B61A /* samsung.png */; };
+		399A923E237E7CCB0008B61A /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 399A9238237E7CCB0008B61A /* apple-logo.png */; };
+		399A9242237E84020008B61A /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A9241237E84020008B61A /* ProductDetailsViewController.swift */; };
+		399A9246237EFD580008B61A /* IItemsListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A9245237EFD580008B61A /* IItemsListCollectionViewCell.swift */; };
+		399A9257237F741F0008B61A /* oppoBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A924B237F741F0008B61A /* oppoBack.jpg */; };
+		399A9258237F741F0008B61A /* appleFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A924C237F741F0008B61A /* appleFront.jpg */; };
+		399A9259237F741F0008B61A /* redmiFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A924D237F741F0008B61A /* redmiFront.jpg */; };
+		399A925A237F741F0008B61A /* vivoBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A924E237F741F0008B61A /* vivoBack.jpg */; };
+		399A925B237F741F0008B61A /* appleBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A924F237F741F0008B61A /* appleBack.jpg */; };
+		399A925C237F741F0008B61A /* redmiBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A9250237F741F0008B61A /* redmiBack.jpg */; };
+		399A925D237F741F0008B61A /* vivoFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A9251237F741F0008B61A /* vivoFront.jpg */; };
+		399A925E237F741F0008B61A /* htcFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A9252237F741F0008B61A /* htcFront.jpg */; };
+		399A925F237F741F0008B61A /* htcBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A9253237F741F0008B61A /* htcBack.jpg */; };
+		399A9260237F741F0008B61A /* samsung10Front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A9254237F741F0008B61A /* samsung10Front.jpg */; };
+		399A9261237F741F0008B61A /* oppoFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A9255237F741F0008B61A /* oppoFront.jpg */; };
+		399A9262237F741F0008B61A /* SamsungS10Back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399A9256237F741F0008B61A /* SamsungS10Back.jpg */; };
+		399A9264237F76530008B61A /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A9263237F76530008B61A /* AddToCartViewController.swift */; };
+		399A9268237F7C1E0008B61A /* CartItemListableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A9267237F7C1E0008B61A /* CartItemListableViewCell.swift */; };
 		5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */; };
 		5502F21E237CA2BD0068C1F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */; };
 		5502F220237CA2BD0068C1F7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21F237CA2BD0068C1F7 /* WelcomeViewController.swift */; };
@@ -20,10 +42,32 @@
 		9BE7C8C1237E1778007AC2C2 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BC237E1778007AC2C2 /* MenuTableViewController.swift */; };
 		9BE7C8C2237E1778007AC2C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BD237E1778007AC2C2 /* SignUpViewController.swift */; };
 		9BE7C8C3237E1778007AC2C2 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BE237E1778007AC2C2 /* Products.swift */; };
-		9BE7C8CC237E37DB007AC2C2 /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8CB237E37DB007AC2C2 /* ProductsListViewController.swift */; };
+		9BE7C8CC237E37DB007AC2C2 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8CB237E37DB007AC2C2 /* ProductListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		399A9233237E7CCB0008B61A /* oppo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oppo.png; sourceTree = "<group>"; };
+		399A9234237E7CCB0008B61A /* vivo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vivo.png; sourceTree = "<group>"; };
+		399A9235237E7CCB0008B61A /* mi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mi.png; sourceTree = "<group>"; };
+		399A9236237E7CCB0008B61A /* htc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = htc.png; sourceTree = "<group>"; };
+		399A9237237E7CCB0008B61A /* samsung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samsung.png; sourceTree = "<group>"; };
+		399A9238237E7CCB0008B61A /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-logo.png"; sourceTree = "<group>"; };
+		399A9241237E84020008B61A /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		399A9245237EFD580008B61A /* IItemsListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IItemsListCollectionViewCell.swift; sourceTree = "<group>"; };
+		399A924B237F741F0008B61A /* oppoBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oppoBack.jpg; sourceTree = "<group>"; };
+		399A924C237F741F0008B61A /* appleFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleFront.jpg; sourceTree = "<group>"; };
+		399A924D237F741F0008B61A /* redmiFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redmiFront.jpg; sourceTree = "<group>"; };
+		399A924E237F741F0008B61A /* vivoBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vivoBack.jpg; sourceTree = "<group>"; };
+		399A924F237F741F0008B61A /* appleBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleBack.jpg; sourceTree = "<group>"; };
+		399A9250237F741F0008B61A /* redmiBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redmiBack.jpg; sourceTree = "<group>"; };
+		399A9251237F741F0008B61A /* vivoFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vivoFront.jpg; sourceTree = "<group>"; };
+		399A9252237F741F0008B61A /* htcFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = htcFront.jpg; sourceTree = "<group>"; };
+		399A9253237F741F0008B61A /* htcBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = htcBack.jpg; sourceTree = "<group>"; };
+		399A9254237F741F0008B61A /* samsung10Front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samsung10Front.jpg; sourceTree = "<group>"; };
+		399A9255237F741F0008B61A /* oppoFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oppoFront.jpg; sourceTree = "<group>"; };
+		399A9256237F741F0008B61A /* SamsungS10Back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SamsungS10Back.jpg; sourceTree = "<group>"; };
+		399A9263237F76530008B61A /* AddToCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		399A9267237F7C1E0008B61A /* CartItemListableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemListableViewCell.swift; sourceTree = "<group>"; };
 		5502F218237CA2BD0068C1F7 /* IosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +83,7 @@
 		9BE7C8BC237E1778007AC2C2 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		9BE7C8BD237E1778007AC2C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9BE7C8BE237E1778007AC2C2 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
-		9BE7C8CB237E37DB007AC2C2 /* ProductsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
+		9BE7C8CB237E37DB007AC2C2 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		399A9202237E75C90008B61A /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				399A924F237F741F0008B61A /* appleBack.jpg */,
+				399A924C237F741F0008B61A /* appleFront.jpg */,
+				399A9253237F741F0008B61A /* htcBack.jpg */,
+				399A9252237F741F0008B61A /* htcFront.jpg */,
+				399A924B237F741F0008B61A /* oppoBack.jpg */,
+				399A9255237F741F0008B61A /* oppoFront.jpg */,
+				399A9250237F741F0008B61A /* redmiBack.jpg */,
+				399A924D237F741F0008B61A /* redmiFront.jpg */,
+				399A9254237F741F0008B61A /* samsung10Front.jpg */,
+				399A9256237F741F0008B61A /* SamsungS10Back.jpg */,
+				399A924E237F741F0008B61A /* vivoBack.jpg */,
+				399A9251237F741F0008B61A /* vivoFront.jpg */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		399A9232237E7CB40008B61A /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				399A9238237E7CCB0008B61A /* apple-logo.png */,
+				399A9236237E7CCB0008B61A /* htc.png */,
+				399A9235237E7CCB0008B61A /* mi.png */,
+				399A9233237E7CCB0008B61A /* oppo.png */,
+				399A9237237E7CCB0008B61A /* samsung.png */,
+				399A9234237E7CCB0008B61A /* vivo.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		5502F20F237CA2BC0068C1F7 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +148,8 @@
 		5502F21A237CA2BD0068C1F7 /* IosProject */ = {
 			isa = PBXGroup;
 			children = (
+				399A9232237E7CB40008B61A /* Icons */,
+				399A9202237E75C90008B61A /* Pictures */,
 				5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */,
 				5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */,
 				9BE7C8BC237E1778007AC2C2 /* MenuTableViewController.swift */,
@@ -86,7 +164,11 @@
 				9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */,
 				9BE7C8B6237E175E007AC2C2 /* Cart.swift */,
 				5502F229237CA2BE0068C1F7 /* Info.plist */,
-				9BE7C8CB237E37DB007AC2C2 /* ProductsListViewController.swift */,
+				9BE7C8CB237E37DB007AC2C2 /* ProductListViewController.swift */,
+				399A9241237E84020008B61A /* ProductDetailsViewController.swift */,
+				399A9245237EFD580008B61A /* IItemsListCollectionViewCell.swift */,
+				399A9263237F76530008B61A /* AddToCartViewController.swift */,
+				399A9267237F7C1E0008B61A /* CartItemListableViewCell.swift */,
 			);
 			path = IosProject;
 			sourceTree = "<group>";
@@ -149,9 +231,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399A925A237F741F0008B61A /* vivoBack.jpg in Resources */,
 				5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */,
 				5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */,
+				399A925B237F741F0008B61A /* appleBack.jpg in Resources */,
+				399A9257237F741F0008B61A /* oppoBack.jpg in Resources */,
+				399A9260237F741F0008B61A /* samsung10Front.jpg in Resources */,
+				399A9262237F741F0008B61A /* SamsungS10Back.jpg in Resources */,
+				399A923D237E7CCB0008B61A /* samsung.png in Resources */,
+				399A9261237F741F0008B61A /* oppoFront.jpg in Resources */,
+				399A923B237E7CCB0008B61A /* mi.png in Resources */,
 				5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */,
+				399A9239237E7CCB0008B61A /* oppo.png in Resources */,
+				399A925D237F741F0008B61A /* vivoFront.jpg in Resources */,
+				399A925F237F741F0008B61A /* htcBack.jpg in Resources */,
+				399A9259237F741F0008B61A /* redmiFront.jpg in Resources */,
+				399A925C237F741F0008B61A /* redmiBack.jpg in Resources */,
+				399A925E237F741F0008B61A /* htcFront.jpg in Resources */,
+				399A923C237E7CCB0008B61A /* htc.png in Resources */,
+				399A9258237F741F0008B61A /* appleFront.jpg in Resources */,
+				399A923E237E7CCB0008B61A /* apple-logo.png in Resources */,
+				399A923A237E7CCB0008B61A /* vivo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,14 +263,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5502F220237CA2BD0068C1F7 /* WelcomeViewController.swift in Sources */,
+				399A9268237F7C1E0008B61A /* CartItemListableViewCell.swift in Sources */,
 				9BE7C8C0237E1778007AC2C2 /* verfyingValidations.swift in Sources */,
 				5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */,
+				399A9242237E84020008B61A /* ProductDetailsViewController.swift in Sources */,
 				5502F21E237CA2BD0068C1F7 /* SceneDelegate.swift in Sources */,
-				9BE7C8CC237E37DB007AC2C2 /* ProductsListViewController.swift in Sources */,
+				9BE7C8CC237E37DB007AC2C2 /* ProductListViewController.swift in Sources */,
+				399A9246237EFD580008B61A /* IItemsListCollectionViewCell.swift in Sources */,
 				9BE7C8C1237E1778007AC2C2 /* MenuTableViewController.swift in Sources */,
 				9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */,
 				9BE7C8C2237E1778007AC2C2 /* SignUpViewController.swift in Sources */,
 				9BE7C8C3237E1778007AC2C2 /* Products.swift in Sources */,
+				399A9264237F76530008B61A /* AddToCartViewController.swift in Sources */,
 				9BE7C8B9237E1765007AC2C2 /* LoginViewController.swift in Sources */,
 				9BE7C8B7237E175E007AC2C2 /* Cart.swift in Sources */,
 			);

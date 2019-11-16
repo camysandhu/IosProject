@@ -10,7 +10,7 @@ import UIKit
 
 class ProductsListViewController: UIViewController {
 
-    @IBOutlet weak var collectionView: UICollectionView!
+     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

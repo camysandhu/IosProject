@@ -17,7 +17,7 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         <#code#>
-
+    }
     
 
      @IBOutlet weak var collectionView: UICollectionView!

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3998A393237FC7A10098B9D6 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998A392237FC7A10098B9D6 /* iphone.png */; };
 		5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */; };
 		5502F21E237CA2BD0068C1F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */; };
 		5502F220237CA2BD0068C1F7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21F237CA2BD0068C1F7 /* WelcomeViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3998A392237FC7A10098B9D6 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.png; path = ../../iphone.png; sourceTree = "<group>"; };
 		5502F218237CA2BD0068C1F7 /* IosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5502F21F237CA2BD0068C1F7 /* WelcomeViewController.swift */,
 				5502F221237CA2BD0068C1F7 /* Main.storyboard */,
 				5502F224237CA2BE0068C1F7 /* Assets.xcassets */,
+				3998A392237FC7A10098B9D6 /* iphone.png */,
 				5502F226237CA2BE0068C1F7 /* LaunchScreen.storyboard */,
 				9BE7C8B8237E1765007AC2C2 /* LoginViewController.swift */,
 				9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */,
@@ -152,7 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0A80A5237F74E70046DCA3 /* iphone.png in Resources */,
+
+
 				5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */,
 				5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */,
 				5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */,

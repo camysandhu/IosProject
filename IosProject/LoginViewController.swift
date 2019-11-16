@@ -16,19 +16,16 @@ let userLogin = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
         //https://stackoverflow.com/questions/37873119/how-to-toggle-a-uitextfield-secure-text-entry-hide-password-in-swift
-        loginPassword.isSecureTextEntry = true
-        
-        if let loginUser = userLogin.string(forKey: "loginuser")
+     
+        if let loginuser = userLogin.value(forKey: "loginuser")
         {
-            loginUsername.text = loginUser
-            
-            if let loginPass = userLogin.string(forKey: "loginuser")
+            loginUsername.text = loginuser as? String
+            if let loginPass = userLogin.value(forKey: "loginPass")
             {
-                loginPassword.text = loginPass
+                loginPassword.text = loginPass as? String
                 remembermeBtn.isOn = true
             }
         }
-        
         else
         {
            remembermeBtn.isOn = false
@@ -43,16 +40,23 @@ let userLogin = UserDefaults.standard
     }
     @IBAction func loginBtn(_ sender: Any)
     {
+        
         if (loginUsername.text?.count)! > 1 && (loginPassword.text?.count)! > 1
         {
-            if loginUsername.text! == (userLogin.string(forKey: "username")!) && loginPassword.text! == (userLogin.string(forKey: "password")!){
+            //if readUsersPlist(){
+           if loginUsername.text! == (userLogin.string(forKey: "username")!) && loginPassword.text! == (userLogin.string(forKey: "password")!){
 
                 if remembermeBtn.isOn{
-                    userLogin.set(userLogin.string(forKey: "username")!, forKey: "loginuser")
-                    userLogin.set(userLogin.string(forKey: "password")!, forKey: "loginpass")
+                    self.userLogin.set(loginUsername, forKey: "loginuser")
+                    self.userLogin.set(loginPassword, forKey: "loginPass")
+                    
+                    
+//
+//                    self.userLogin.set(userLogin.string(forKey: "username"), forKey: "loginuser")
+//                    self.userLogin.set(userLogin.string(forKey: "password"), forKey: "loginpass")
                 }else{
-                    userLogin.removeObject(forKey: "loginuser")
-                    userLogin.removeObject(forKey: "loginpass")
+                    self.userLogin.removeObject(forKey: "loginuser")
+                    self.userLogin.removeObject(forKey: "loginpass")
                 }
                 //moving to Home Page
                 let sb = UIStoryboard(name: "Main", bundle: nil)
@@ -74,8 +78,23 @@ let userLogin = UserDefaults.standard
             }
         }
         
-    }
-    
+    //}
+//func readUsersPlist()-> Bool{
+//    if let bundlePath = Bundle.main.path(forResource: "UserList", ofType: "plist")
+//    {
+//        let dictionary = NSMutableDictionary(contentsOfFile: bundlePath)
+//        let userlist = dictionary!["Users"] as! NSArray
+//        for user in userlist{
+//            let u = user as! NSDictionary
+//            let username = u["username"] as! String
+//            let password = u["password"] as! String
+//            if username == loginUsername.text! && password == loginPassword.text!
+//            {return true}
+//
+//        }
+//    }
+//    return false
+//}
    
-
+}
 

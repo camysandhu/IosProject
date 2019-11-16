@@ -428,7 +428,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="oCx-mt-yYg">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="oCx-mt-yYg" customClass="ItemsListCollectionViewCell" customModule="IosProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="176" height="209"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dfk-1Z-50X">
@@ -442,6 +442,9 @@
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="176" height="209"/>
+                                        <connections>
+                                            <outlet property="itemImage" destination="dfk-1Z-50X" id="pV1-fE-jRc"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>

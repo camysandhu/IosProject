@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3998A393237FC7A10098B9D6 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998A392237FC7A10098B9D6 /* iphone.png */; };
 		5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */; };
 		5502F21E237CA2BD0068C1F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */; };
 		5502F220237CA2BD0068C1F7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502F21F237CA2BD0068C1F7 /* WelcomeViewController.swift */; };
 		5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5502F221237CA2BD0068C1F7 /* Main.storyboard */; };
 		5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5502F224237CA2BE0068C1F7 /* Assets.xcassets */; };
 		5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5502F226237CA2BE0068C1F7 /* LaunchScreen.storyboard */; };
-		9B0A80A5237F74E70046DCA3 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A80A4237F74E70046DCA3 /* iphone.png */; };
 		9BE7C8B7237E175E007AC2C2 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8B6237E175E007AC2C2 /* Cart.swift */; };
 		9BE7C8B9237E1765007AC2C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8B8237E1765007AC2C2 /* LoginViewController.swift */; };
 		9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */; };
@@ -76,6 +74,7 @@
 		5502F21A237CA2BD0068C1F7 /* IosProject */ = {
 			isa = PBXGroup;
 			children = (
+				70C16B1323806C6C009E596E /* New Group */,
 				5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */,
 				5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */,
 				9BE7C8BC237E1778007AC2C2 /* MenuTableViewController.swift */,
@@ -95,6 +94,13 @@
 				9B0A80A4237F74E70046DCA3 /* iphone.png */,
 			);
 			path = IosProject;
+			sourceTree = "<group>";
+		};
+		70C16B1323806C6C009E596E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-
 				5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */,
 				5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */,
 				5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */,

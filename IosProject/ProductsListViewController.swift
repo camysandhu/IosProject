@@ -8,8 +8,11 @@
 
 import UIKit
 
-class ProductsListViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class ProductsListViewController: UIViewController
+//, UICollectionViewDelegate, UICollectionViewDataSource
+{
       var productClass = Products()
+    var icons = ["apple-logo.png","htc.png","mi.png","oppo.png","samsung.png","vivo.png"]
     
 
     @IBOutlet weak var collectionView: UICollectionView!
@@ -19,13 +22,13 @@ class ProductsListViewController: UIViewController, UICollectionViewDelegate, UI
         
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
-    }
-    
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        <#code#>
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        <#code#>
+//    }
+//
 
 }

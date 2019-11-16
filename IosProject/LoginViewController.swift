@@ -43,8 +43,8 @@ let userLogin = UserDefaults.standard
         
         if (loginUsername.text?.count)! > 1 && (loginPassword.text?.count)! > 1
         {
-            if readUsersPlist(){
-//            if loginUsername.text! == (userLogin.string(forKey: "username")!) && loginPassword.text! == (userLogin.string(forKey: "password")!){
+            //if readUsersPlist(){
+           if loginUsername.text! == (userLogin.string(forKey: "username")!) && loginPassword.text! == (userLogin.string(forKey: "password")!){
 
                 if remembermeBtn.isOn{
                     self.userLogin.set(loginUsername, forKey: "loginuser")
@@ -79,22 +79,22 @@ let userLogin = UserDefaults.standard
         }
         
     //}
-func readUsersPlist()-> Bool{
-    if let bundlePath = Bundle.main.path(forResource: "UserList", ofType: "plist")
-    {
-        let dictionary = NSMutableDictionary(contentsOfFile: bundlePath)
-        let userlist = dictionary!["Users"] as! NSArray
-        for user in userlist{
-            let u = user as! NSDictionary
-            let username = u["username"] as! String
-            let password = u["password"] as! String
-            if username == loginUsername.text! && password == loginPassword.text!
-            {return true}
-            
-        }
-    }
-    return false
-}
+//func readUsersPlist()-> Bool{
+//    if let bundlePath = Bundle.main.path(forResource: "UserList", ofType: "plist")
+//    {
+//        let dictionary = NSMutableDictionary(contentsOfFile: bundlePath)
+//        let userlist = dictionary!["Users"] as! NSArray
+//        for user in userlist{
+//            let u = user as! NSDictionary
+//            let username = u["username"] as! String
+//            let password = u["password"] as! String
+//            if username == loginUsername.text! && password == loginPassword.text!
+//            {return true}
+//
+//        }
+//    }
+//    return false
+//}
    
 }
 

@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ProductsListViewController: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate
 {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -16,7 +17,7 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         <#code#>
-    }
+
     
 
     @IBOutlet weak var collectionView: UICollectionView!
@@ -27,6 +28,5 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
     }
     
 
-    
 
 }

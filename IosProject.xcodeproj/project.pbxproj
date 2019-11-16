@@ -14,6 +14,7 @@
 		5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5502F221237CA2BD0068C1F7 /* Main.storyboard */; };
 		5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5502F224237CA2BE0068C1F7 /* Assets.xcassets */; };
 		5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5502F226237CA2BE0068C1F7 /* LaunchScreen.storyboard */; };
+		9B0A80A5237F74E70046DCA3 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A80A4237F74E70046DCA3 /* iphone.png */; };
 		9BE7C8B7237E175E007AC2C2 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8B6237E175E007AC2C2 /* Cart.swift */; };
 		9BE7C8B9237E1765007AC2C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8B8237E1765007AC2C2 /* LoginViewController.swift */; };
 		9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */; };
@@ -34,6 +35,7 @@
 		5502F224237CA2BE0068C1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5502F227237CA2BE0068C1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5502F229237CA2BE0068C1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0A80A4237F74E70046DCA3 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		9BE7C8B6237E175E007AC2C2 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		9BE7C8B8237E1765007AC2C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				9BE7C8B6237E175E007AC2C2 /* Cart.swift */,
 				5502F229237CA2BE0068C1F7 /* Info.plist */,
 				9BE7C8CB237E37DB007AC2C2 /* ProductsListViewController.swift */,
+				9B0A80A4237F74E70046DCA3 /* iphone.png */,
 			);
 			path = IosProject;
 			sourceTree = "<group>";
@@ -152,7 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3998A393237FC7A10098B9D6 /* iphone.png in Resources */,
+
+
 				5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */,
 				5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */,
 				5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */,

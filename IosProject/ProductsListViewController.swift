@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ProductsListViewController: UIViewController {
+class ProductsListViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+      var productClass = Products()
+    
 
     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
@@ -17,7 +19,13 @@ class ProductsListViewController: UIViewController {
         
     }
     
-
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
     
 
 }

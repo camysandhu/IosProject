@@ -17,6 +17,16 @@ class UpdateProfileViewController: UIViewController {
     @objc func saveButton(){
         for i in 0...3{
             switch i {
+                case 0:
+                    if ((udUserTxt.text?.count)! > 5){
+                }
+                
+                
+                
+                
+                
+                
+                
             }}
 
 }

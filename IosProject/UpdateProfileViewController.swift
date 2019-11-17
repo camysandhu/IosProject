@@ -15,6 +15,9 @@ class UpdateProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @objc func saveButton(){
+        for i in 0...3{
+            switch i {
+            }}
 
 }
 }

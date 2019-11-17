@@ -33,7 +33,11 @@ class UpdateProfileViewController: UIViewController {
                         updateUserData.set(udUserTxt.text, forKey: "email")
                     }
                 
-                
+                case 3:
+                    if ((upAddressTxt.text?.count)! > 3){
+                        updateUserData.set(udUserTxt.text, forKey: "address")
+                    }
+
                 
                 
                 

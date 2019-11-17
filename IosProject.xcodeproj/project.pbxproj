@@ -15,9 +15,14 @@
 		70C16B7F2381ED55009E596E /* AboutUs in Resources */ = {isa = PBXBuildFile; fileRef = 70C16B7E2381ED55009E596E /* AboutUs */; };
 		70C16B832381ED80009E596E /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 70C16B822381ED80009E596E /* Icons */; };
 		70C16B852381ED8E009E596E /* ItemsListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16B842381ED8E009E596E /* ItemsListCollectionViewCell.swift */; };
-		70C16B872381ED98009E596E /* Login_and_SignUp in Resources */ = {isa = PBXBuildFile; fileRef = 70C16B862381ED98009E596E /* Login_and_SignUp */; };
 		70C16B892381EDA4009E596E /* Products in Resources */ = {isa = PBXBuildFile; fileRef = 70C16B882381EDA4009E596E /* Products */; };
 		70C16B8B2381EDAC009E596E /* Swift_Files in Resources */ = {isa = PBXBuildFile; fileRef = 70C16B8A2381EDAC009E596E /* Swift_Files */; };
+		70C16B9C2381FBD8009E596E /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16B9B2381FBD8009E596E /* MyAccountViewController.swift */; };
+		70C16B9E2381FBDF009E596E /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16B9D2381FBDF009E596E /* UpdateProfileViewController.swift */; };
+		70C16BA02381FC29009E596E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16B9F2381FC29009E596E /* LoginViewController.swift */; };
+		70C16BA22381FC2E009E596E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BA12381FC2D009E596E /* SignUpViewController.swift */; };
+		70C16BA42381FC44009E596E /* verfyingValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BA32381FC44009E596E /* verfyingValidations.swift */; };
+		70C16BA62381FC59009E596E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BA52381FC59009E596E /* MenuTableViewController.swift */; };
 		9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +39,14 @@
 		70C16B812381ED5E009E596E /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		70C16B822381ED80009E596E /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 		70C16B842381ED8E009E596E /* ItemsListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListCollectionViewCell.swift; sourceTree = "<group>"; };
-		70C16B862381ED98009E596E /* Login_and_SignUp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Login_and_SignUp; sourceTree = "<group>"; };
 		70C16B882381EDA4009E596E /* Products */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Products; sourceTree = "<group>"; };
 		70C16B8A2381EDAC009E596E /* Swift_Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Swift_Files; sourceTree = "<group>"; };
+		70C16B9B2381FBD8009E596E /* MyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		70C16B9D2381FBDF009E596E /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		70C16B9F2381FC29009E596E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		70C16BA12381FC2D009E596E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		70C16BA32381FC44009E596E /* verfyingValidations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verfyingValidations.swift; sourceTree = "<group>"; };
+		70C16BA52381FC59009E596E /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		9B0A80A4237F74E70046DCA3 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +83,6 @@
 			children = (
 				70C16B8A2381EDAC009E596E /* Swift_Files */,
 				70C16B882381EDA4009E596E /* Products */,
-				70C16B862381ED98009E596E /* Login_and_SignUp */,
 				70C16B822381ED80009E596E /* Icons */,
 				70C16B7E2381ED55009E596E /* AboutUs */,
 				70C16B802381ED5E009E596E /* Menu */,
@@ -82,10 +91,16 @@
 				5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */,
 				5502F221237CA2BD0068C1F7 /* Main.storyboard */,
 				5502F224237CA2BE0068C1F7 /* Assets.xcassets */,
+				70C16B9F2381FC29009E596E /* LoginViewController.swift */,
 				3998A392237FC7A10098B9D6 /* iphone.png */,
+				70C16B9D2381FBDF009E596E /* UpdateProfileViewController.swift */,
 				70C16B842381ED8E009E596E /* ItemsListCollectionViewCell.swift */,
+				70C16B9B2381FBD8009E596E /* MyAccountViewController.swift */,
+				70C16BA32381FC44009E596E /* verfyingValidations.swift */,
+				70C16BA12381FC2D009E596E /* SignUpViewController.swift */,
 				5502F226237CA2BE0068C1F7 /* LaunchScreen.storyboard */,
 				9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */,
+				70C16BA52381FC59009E596E /* MenuTableViewController.swift */,
 				5502F229237CA2BE0068C1F7 /* Info.plist */,
 				9B0A80A4237F74E70046DCA3 /* iphone.png */,
 			);
@@ -168,7 +183,6 @@
 				5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */,
 				5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */,
 				70C16B8B2381EDAC009E596E /* Swift_Files in Resources */,
-				70C16B872381ED98009E596E /* Login_and_SignUp in Resources */,
 				70C16B892381EDA4009E596E /* Products in Resources */,
 				70C16B832381ED80009E596E /* Icons in Resources */,
 				70C16B7F2381ED55009E596E /* AboutUs in Resources */,
@@ -183,8 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C16BA42381FC44009E596E /* verfyingValidations.swift in Sources */,
+				70C16BA02381FC29009E596E /* LoginViewController.swift in Sources */,
+				70C16BA62381FC59009E596E /* MenuTableViewController.swift in Sources */,
 				5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */,
+				70C16BA22381FC2E009E596E /* SignUpViewController.swift in Sources */,
 				5502F21E237CA2BD0068C1F7 /* SceneDelegate.swift in Sources */,
+				70C16B9C2381FBD8009E596E /* MyAccountViewController.swift in Sources */,
+				70C16B9E2381FBDF009E596E /* UpdateProfileViewController.swift in Sources */,
 				9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */,
 				70C16B852381ED8E009E596E /* ItemsListCollectionViewCell.swift in Sources */,
 			);

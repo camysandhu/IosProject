@@ -11,5 +11,5 @@ import UIKit
 class ItemsListCollectionViewCell: UICollectionViewCell {
     
 
-    @IBOutlet weak var itemImage: UIView!
+    @IBOutlet weak var itemImage: UIImageView!
 }

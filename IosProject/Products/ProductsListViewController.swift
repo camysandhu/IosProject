@@ -37,7 +37,28 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
         cell.itemImage.image = UIImage(named: icons[indexPath.row])
         return cell
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.section == 0{
+        passImageParameter = indexPath.row
+        switch indexPath.row{
+            case 0:
+            print("Apple")
+            case 1:
+            print("HTC")
+            case 2:
+            print("MI")
+            case 3:
+            print("OPPO")
+            case 4:
+            print("SAMSUNG")
+            case 5:
+            print("VIVO")
+            default:
+            print("Invalid")
+            }
+            self.performSegue(withIdentifier: "moveToDetails", sender: nil)
+        }
+    }
 
     func mergeItems()
     {

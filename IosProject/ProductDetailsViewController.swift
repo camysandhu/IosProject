@@ -9,7 +9,7 @@
 import UIKit
 
 class ProductDetailsViewController: UIViewController {
-     
+          var proDetailObject = Products()
     @IBOutlet weak var productImageView: UIImageView!
     @IBOutlet weak var nameLbl: UILabel!
     @IBOutlet weak var brandLbl: UILabel!

@@ -3,6 +3,7 @@
 import UIKit
 
 class UpdateProfileViewController: UIViewController {
+    var updateUserData = UserDefaults.standard
 
     @IBOutlet weak var udUserTxt: UITextField!
        @IBOutlet weak var upPassTxt: UITextField!
@@ -18,7 +19,9 @@ class UpdateProfileViewController: UIViewController {
         for i in 0...3{
             switch i {
                 case 0:
-                    if ((udUserTxt.text?.count)! > 5){
+                    if ((udUserTxt.text?.count)! > 5)
+                    {
+        updateUserData.set(udUserTxt.text, forKey: "username")
                 }
                 
                 

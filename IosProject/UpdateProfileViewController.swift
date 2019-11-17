@@ -8,6 +8,11 @@ class UpdateProfileViewController: UIViewController {
        @IBOutlet weak var upPassTxt: UITextField!
        @IBOutlet weak var upEmailTxt: UITextField!
        @IBOutlet weak var upAddressTxt: UITextField!
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
+      
+        // Do any additional setup after loading the view.
+    }
 
 }

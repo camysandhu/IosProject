@@ -42,10 +42,16 @@ class UpdateProfileViewController: UIViewController {
                 default:
                     print("Invalid")
                 }
+        }
 
+                let alert = UIAlertController(title: "DATA SAVED", message: "Data Save Successfully !!", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
+                    let sb = UIStoryboard(name: "Main", bundle: nil)
+                    let profileVC = sb.instantiateViewController(withIdentifier: "menuVC") as! MenuTableViewController
+                    self.navigationController?.pushViewController(profileVC, animated: true)
                 
-                
-            }}
+            }))
 
 }
+
 }

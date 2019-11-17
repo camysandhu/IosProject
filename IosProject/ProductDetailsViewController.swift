@@ -24,5 +24,16 @@ class ProductDetailsViewController: UIViewController {
         
     }
     
+    @IBAction func proSegment(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex
+        {
+        case 0:
+            productImageView.image = UIImage(named: proDetailObject.productFImage)
+            case 1:
+            productImageView.image = UIImage(named: proDetailObject.productBImage)
+        default:
+            print("Inavild Option")
+        }
+    }
 
 }

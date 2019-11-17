@@ -31,6 +31,7 @@ class MyAccountViewController: UIViewController,UINavigationControllerDelegate,U
         profileEmail.placeholder = displayUserData.string(forKey: "email")
         profileAddress.placeholder = displayUserData.string(forKey: "address")
     }
+    
     @IBAction func updateProfilePicBtn(_ sender: UIButton) {
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
         let gallery = UIImagePickerController()

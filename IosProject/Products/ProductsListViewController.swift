@@ -11,6 +11,8 @@ import UIKit
 
 class ProductsListViewController: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate
 {
+    var passImageParameter : Int!
+    var productClass = Products()
     
      var icons = [""]
     

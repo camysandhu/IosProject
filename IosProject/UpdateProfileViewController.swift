@@ -14,5 +14,7 @@ class UpdateProfileViewController: UIViewController {
       
         // Do any additional setup after loading the view.
     }
+    @objc func saveButton(){
 
+}
 }

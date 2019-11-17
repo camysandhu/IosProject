@@ -25,11 +25,13 @@ class MyAccountViewController: UIViewController,UINavigationControllerDelegate,U
         
         
         //display user data with disable fields
+        
         profileUsername.placeholder = displayUserData.string(forKey: "username")
         profilePasssword.placeholder = displayUserData.string(forKey: "password")
         profileEmail.placeholder = displayUserData.string(forKey: "email")
         profileAddress.placeholder = displayUserData.string(forKey: "address")
     }
+    
     @IBAction func updateProfilePicBtn(_ sender: UIButton) {
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
         let gallery = UIImagePickerController()

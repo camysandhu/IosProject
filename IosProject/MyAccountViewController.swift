@@ -47,6 +47,8 @@ class MyAccountViewController: UIViewController,UINavigationControllerDelegate,U
         self.navigationController?.pushViewController(profilepage, animated: true)
     }
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+         
+       }
    
 }

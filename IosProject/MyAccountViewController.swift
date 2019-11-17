@@ -20,7 +20,7 @@ class MyAccountViewController: UIViewController,UINavigationControllerDelegate,U
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Edit Profile", style: .done, target: self, action: #selector(editProfile))
         
         
         
@@ -29,6 +29,20 @@ class MyAccountViewController: UIViewController,UINavigationControllerDelegate,U
         profilePasssword.placeholder = displayUserData.string(forKey: "password")
         profileEmail.placeholder = displayUserData.string(forKey: "email")
         profileAddress.placeholder = displayUserData.string(forKey: "address")
+    }
+    @IBAction func updateProfilePicBtn(_ sender: UIButton) {
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
+        let gallery = UIImagePickerController()
+            gallery.delegate = self
+            gallery.sourceType = .photoLibrary
+            self.present(gallery,animated: true, completion: nil)
+        }
+    }
+    @objc func editProfile()
+    {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let profilepage = sb.instantiateViewController(withIdentifier: "updateProfileVC") as! UpdateProfileViewController
+        self.navigationController?.pushViewController(profilepage, animated: true)
     }
     
     

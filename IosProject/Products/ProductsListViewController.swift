@@ -24,6 +24,10 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
 
         
     }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.icons.count
     }

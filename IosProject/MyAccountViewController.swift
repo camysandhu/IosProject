@@ -50,5 +50,16 @@ class MyAccountViewController: UIViewController,UINavigationControllerDelegate,U
     override func viewWillAppear(_ animated: Bool) {
          
        }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            self.profilePicImg.image = image
+            self.profilePicImg.layer.cornerRadius = self.profilePicImg.frame.size.width / 2;
+            self.profilePicImg.clipsToBounds = true;
+        }else{
+            print("Something went wrong")
+        }
+        self.dismiss(animated: true, completion: nil)
+    }
+    
    
 }

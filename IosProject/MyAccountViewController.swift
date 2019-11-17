@@ -60,6 +60,8 @@ class MyAccountViewController: UIViewController,UINavigationControllerDelegate,U
         }
         self.dismiss(animated: true, completion: nil)
     }
-    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+           self.dismiss(animated: true, completion: nil)
+       }
    
 }

@@ -24,7 +24,14 @@ class UpdateProfileViewController: UIViewController {
         updateUserData.set(udUserTxt.text, forKey: "username")
                 }
                 
-                
+                case 1:
+                    if (upPassTxt.text?.verifyingPassword())!{
+                        updateUserData.set(udUserTxt.text, forKey: "password")
+                    }
+                case 2:
+                    if (upEmailTxt.text?.verifyingEmail())!{
+                        updateUserData.set(udUserTxt.text, forKey: "email")
+                    }
                 
                 
                 

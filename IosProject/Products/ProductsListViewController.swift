@@ -14,7 +14,7 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
     var passImageParameter : Int!
     var productClass = Products()
     
-     var icons = [""]
+     var icons = ["apple-logo.png","htc.png","mi.png","oppo.png","samsung.png","vivo.png"]
     
      @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {

@@ -18,7 +18,9 @@ class ProductDetailsViewController: UIViewController {
     @IBOutlet weak var quantityTxt: UITextField!
     override func viewDidLoad() {
         
-
+        super.viewDidLoad()
+         productImageView.image = UIImage(named: proDetailObject.productFImage)
+        
         
     }
     

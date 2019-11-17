@@ -404,6 +404,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="36V-tv-TBX"/>
+                    <connections>
+                        <segue destination="Hqt-uv-UPV" kind="show" identifier="moveToAboutUs" id="HCh-2k-FFI"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zfr-jy-wE6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -459,6 +462,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6rd-En-2VK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1070" y="204"/>
+        </scene>
+        <!--About Us-->
+        <scene sceneID="Pfq-JH-VA7">
+            <objects>
+                <viewController title="About Us" id="Hqt-uv-UPV" customClass="AboutUsViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Il-ji-8nY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kJ9-nL-35i">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xJC-ON-Y8H" firstAttribute="bottom" secondItem="kJ9-nL-35i" secondAttribute="bottom" id="6Uc-AK-5Ws"/>
+                            <constraint firstItem="kJ9-nL-35i" firstAttribute="top" secondItem="xJC-ON-Y8H" secondAttribute="top" id="LIG-wa-OvV"/>
+                            <constraint firstItem="xJC-ON-Y8H" firstAttribute="trailing" secondItem="kJ9-nL-35i" secondAttribute="trailing" id="hBE-KU-Txt"/>
+                            <constraint firstItem="kJ9-nL-35i" firstAttribute="leading" secondItem="xJC-ON-Y8H" secondAttribute="leading" id="k3Q-N1-Dhl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xJC-ON-Y8H"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9g9-rl-2AN"/>
+                    <connections>
+                        <outlet property="aboutUsPage" destination="kJ9-nL-35i" id="k0E-7d-09M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Of-ZZ-2IL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="316" y="897"/>
         </scene>
     </scenes>
     <resources>

@@ -16,8 +16,8 @@ class AboutUsViewController: UIViewController, WKNavigationDelegate {
     @IBOutlet weak var aboutUsPage: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         loadHTMLFile()
+      
         
     }
     

@@ -34,7 +34,7 @@ class ProductsListViewController: UIViewController,UICollectionViewDataSource, U
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ItemCell", for: indexPath) as! ItemsListCollectionViewCell
-//        cell.itemImage.image = UIImage(named: icons[indexPath.row])
+        cell.itemImage.image = UIImage(named: icons[indexPath.row])
         return cell
     }
     

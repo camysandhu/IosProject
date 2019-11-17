@@ -38,7 +38,10 @@ class UpdateProfileViewController: UIViewController {
                         updateUserData.set(udUserTxt.text, forKey: "address")
                     }
 
-                
+                default:
+                    print("Invalid")
+                }
+
                 
                 
             }}

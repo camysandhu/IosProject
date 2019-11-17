@@ -51,7 +51,8 @@ class UpdateProfileViewController: UIViewController {
                     self.navigationController?.pushViewController(profileVC, animated: true)
                 
             }))
-
+        self.present(alert,animated: true}
+        
 }
 
 }

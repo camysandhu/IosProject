@@ -17,7 +17,12 @@ class PaymentViewController: UIViewController {
     @IBOutlet weak var cardNumberLbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.cardNumberLbl.isHidden = true
+        self.cvvLbl.isHidden = true
+        self.cvvTxt.isHidden = true
+        self.cardNumberTxt.isHidden = true
+      
+        self.totalAmountLbl.text = String(Cart.cartAccess.totalPrice).addingDollar()
        
     }
 }

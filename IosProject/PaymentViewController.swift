@@ -32,6 +32,47 @@ class PaymentViewController: UIViewController {
         Cart.cartAccess.orderedProductList.append(list)
         Cart.cartAccess.productList.removeAll()
     }
+    @IBAction func placeOrderBtn(_ sender: Any) {
+        let sb1 = UIStoryboard(name: "Main", bundle: nil)
+        //move to Order
+            let orderVC = sb1.instantiateViewController(withIdentifier: "OrderVC") as! OrderViewController
+        //validating user payment details
+            if Cart.cartAccess.paymentMethod{
+                if (self.cardNumberTxt.text?.count)! > 15 {
+                    self.getUserAddress.set(self.cardNumberTxt.text, forKey: "cardno")
+                    if (self.cvvTxt.text?.count)! > 2{
+                        self.getUserAddress.set(self.cvvTxt.text, forKey: "CVV")
+                        
+                       addProductOrderedList()
+                        
+                        if((self.shippingAddressLbl.text?.count)! > 3){
+                            self.getUserAddress.set(self.shippingAddressLbl.text, forKey: "address")
+                        }
+                    }else{
+                        //alerts
+                        let alert = UIAlertController(title: "CVV ALERT", message: "CVV needs to be of 3 digits", preferredStyle: .alert)
+                        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                        self.present(alert,animated: true)
+                    }
+                }else{
+                    let alert = UIAlertController(title: "CARD ALERT", message: "Card number must be of 16 digits", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    self.present(alert,animated: true)
+                }
+            }else
+            {
+                
+                addProductOrderedList()
+                if((self.shippingAddressLbl.text?.count)! > 3)
+                {
+                    self.getUserAddress.set(self.shippingAddressLbl.text, forKey: "address")
+                }
+                self.navigationController?.pushViewController(orderVC, animated: true)
+            }
+        }
+        
+       
+
 }
    
    

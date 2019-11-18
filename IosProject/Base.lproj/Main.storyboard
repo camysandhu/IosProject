@@ -487,7 +487,7 @@
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profilePic.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sto-ZI-Orc">
-                                <rect key="frame" x="191" y="88" width="32" height="150"/>
+                                <rect key="frame" x="157" y="88" width="100" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Ajd-kG-ppL"/>
                                 </constraints>
@@ -1149,7 +1149,7 @@
         <image name="logut2x" width="24" height="24"/>
         <image name="order2x" width="24" height="24"/>
         <image name="product2x" width="24" height="24"/>
-        <image name="profilePic.png" width="16" height="16"/>
+        <image name="profilePic.png" width="100" height="100"/>
         <image name="shopping2x" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>

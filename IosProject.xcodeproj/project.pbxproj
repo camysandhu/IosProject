@@ -12,7 +12,6 @@
 		5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5502F221237CA2BD0068C1F7 /* Main.storyboard */; };
 		5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5502F224237CA2BE0068C1F7 /* Assets.xcassets */; };
 		5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5502F226237CA2BE0068C1F7 /* LaunchScreen.storyboard */; };
-		70C16B832381ED80009E596E /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 70C16B822381ED80009E596E /* Icons */; };
 		70C16B852381ED8E009E596E /* ItemsListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16B842381ED8E009E596E /* ItemsListCollectionViewCell.swift */; };
 		70C16B9C2381FBD8009E596E /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16B9B2381FBD8009E596E /* MyAccountViewController.swift */; };
 		70C16B9E2381FBDF009E596E /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16B9D2381FBDF009E596E /* UpdateProfileViewController.swift */; };
@@ -30,6 +29,26 @@
 		70C16BBC23821EF1009E596E /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BBB23821EF0009E596E /* OrderViewController.swift */; };
 		70C16BBE23822140009E596E /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BBD2382213F009E596E /* OrderTableViewCell.swift */; };
 		70C16BC023822470009E596E /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BBF23822470009E596E /* AboutUsViewController.swift */; };
+		70C16BC423823277009E596E /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BC323823277009E596E /* apple-logo.png */; };
+		70C16BCC238232E3009E596E /* profilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BCB238232E3009E596E /* profilePic.png */; };
+		70C16BCE238232EC009E596E /* htc.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BCD238232EC009E596E /* htc.png */; };
+		70C16BD023823327009E596E /* mi.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BCF23823327009E596E /* mi.png */; };
+		70C16BD22382332E009E596E /* oppo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BD12382332E009E596E /* oppo.png */; };
+		70C16BD423823335009E596E /* samsung.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BD323823335009E596E /* samsung.png */; };
+		70C16BD62382333C009E596E /* vivo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BD52382333C009E596E /* vivo.png */; };
+		70C16BE423823566009E596E /* SamsungS10Back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BD823823566009E596E /* SamsungS10Back.jpg */; };
+		70C16BE523823566009E596E /* redmiFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BD923823566009E596E /* redmiFront.jpg */; };
+		70C16BE623823566009E596E /* vivoFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BDA23823566009E596E /* vivoFront.jpg */; };
+		70C16BE723823566009E596E /* oppoBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BDB23823566009E596E /* oppoBack.jpg */; };
+		70C16BE823823566009E596E /* htcFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BDC23823566009E596E /* htcFront.jpg */; };
+		70C16BE923823566009E596E /* appleFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BDD23823566009E596E /* appleFront.jpg */; };
+		70C16BEA23823566009E596E /* appleBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BDE23823566009E596E /* appleBack.jpg */; };
+		70C16BEB23823566009E596E /* redmiBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BDF23823566009E596E /* redmiBack.jpg */; };
+		70C16BEC23823566009E596E /* samsung10Front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BE023823566009E596E /* samsung10Front.jpg */; };
+		70C16BED23823566009E596E /* oppoFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BE123823566009E596E /* oppoFront.jpg */; };
+		70C16BEE23823566009E596E /* htcBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BE223823566009E596E /* htcBack.jpg */; };
+		70C16BEF23823566009E596E /* vivoBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BE323823566009E596E /* vivoBack.jpg */; };
+		70C16BF12382386F009E596E /* AboutUsData.html in Resources */ = {isa = PBXBuildFile; fileRef = 70C16BF02382386F009E596E /* AboutUsData.html */; };
 		9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +61,6 @@
 		5502F224237CA2BE0068C1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5502F227237CA2BE0068C1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5502F229237CA2BE0068C1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70C16B822381ED80009E596E /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 		70C16B842381ED8E009E596E /* ItemsListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListCollectionViewCell.swift; sourceTree = "<group>"; };
 		70C16B9B2381FBD8009E596E /* MyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
 		70C16B9D2381FBDF009E596E /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +78,26 @@
 		70C16BBB23821EF0009E596E /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		70C16BBD2382213F009E596E /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		70C16BBF23822470009E596E /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		70C16BC123822473009E596E /* AboutUsData.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AboutUsData.html; sourceTree = "<group>"; };
+		70C16BC323823277009E596E /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-logo.png"; sourceTree = "<group>"; };
+		70C16BCB238232E3009E596E /* profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePic.png; sourceTree = "<group>"; };
+		70C16BCD238232EC009E596E /* htc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = htc.png; path = "../../../final-project -ios-merged/IosProject/Icons/htc.png"; sourceTree = "<group>"; };
+		70C16BCF23823327009E596E /* mi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mi.png; sourceTree = "<group>"; };
+		70C16BD12382332E009E596E /* oppo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oppo.png; sourceTree = "<group>"; };
+		70C16BD323823335009E596E /* samsung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samsung.png; sourceTree = "<group>"; };
+		70C16BD52382333C009E596E /* vivo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vivo.png; sourceTree = "<group>"; };
+		70C16BD823823566009E596E /* SamsungS10Back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SamsungS10Back.jpg; sourceTree = "<group>"; };
+		70C16BD923823566009E596E /* redmiFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redmiFront.jpg; sourceTree = "<group>"; };
+		70C16BDA23823566009E596E /* vivoFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vivoFront.jpg; sourceTree = "<group>"; };
+		70C16BDB23823566009E596E /* oppoBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oppoBack.jpg; sourceTree = "<group>"; };
+		70C16BDC23823566009E596E /* htcFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = htcFront.jpg; sourceTree = "<group>"; };
+		70C16BDD23823566009E596E /* appleFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleFront.jpg; sourceTree = "<group>"; };
+		70C16BDE23823566009E596E /* appleBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleBack.jpg; sourceTree = "<group>"; };
+		70C16BDF23823566009E596E /* redmiBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redmiBack.jpg; sourceTree = "<group>"; };
+		70C16BE023823566009E596E /* samsung10Front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samsung10Front.jpg; sourceTree = "<group>"; };
+		70C16BE123823566009E596E /* oppoFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oppoFront.jpg; sourceTree = "<group>"; };
+		70C16BE223823566009E596E /* htcBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = htcBack.jpg; sourceTree = "<group>"; };
+		70C16BE323823566009E596E /* vivoBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vivoBack.jpg; sourceTree = "<group>"; };
+		70C16BF02382386F009E596E /* AboutUsData.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AboutUsData.html; sourceTree = "<group>"; };
 		9B0A80A4237F74E70046DCA3 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,15 +132,16 @@
 		5502F21A237CA2BD0068C1F7 /* IosProject */ = {
 			isa = PBXGroup;
 			children = (
-				70C16B822381ED80009E596E /* Icons */,
+				70C16BD723823541009E596E /* Pictures */,
+				70C16BC223823269009E596E /* Icon */,
 				5502F21B237CA2BD0068C1F7 /* AppDelegate.swift */,
 				5502F21D237CA2BD0068C1F7 /* SceneDelegate.swift */,
 				5502F221237CA2BD0068C1F7 /* Main.storyboard */,
 				5502F224237CA2BE0068C1F7 /* Assets.xcassets */,
-				70C16BC123822473009E596E /* AboutUsData.html */,
 				70C16B9F2381FC29009E596E /* LoginViewController.swift */,
 				70C16BBF23822470009E596E /* AboutUsViewController.swift */,
 				70C16BB523821688009E596E /* Cart.swift */,
+				70C16BF02382386F009E596E /* AboutUsData.html */,
 				3998A392237FC7A10098B9D6 /* iphone.png */,
 				70C16BAD2382112A009E596E /* ProductsListViewController.swift */,
 				70C16B9D2381FBDF009E596E /* UpdateProfileViewController.swift */,
@@ -125,6 +163,39 @@
 				9B0A80A4237F74E70046DCA3 /* iphone.png */,
 			);
 			path = IosProject;
+			sourceTree = "<group>";
+		};
+		70C16BC223823269009E596E /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				70C16BCB238232E3009E596E /* profilePic.png */,
+				70C16BCD238232EC009E596E /* htc.png */,
+				70C16BCF23823327009E596E /* mi.png */,
+				70C16BD12382332E009E596E /* oppo.png */,
+				70C16BD52382333C009E596E /* vivo.png */,
+				70C16BD323823335009E596E /* samsung.png */,
+				70C16BC323823277009E596E /* apple-logo.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		70C16BD723823541009E596E /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				70C16BDE23823566009E596E /* appleBack.jpg */,
+				70C16BDD23823566009E596E /* appleFront.jpg */,
+				70C16BE223823566009E596E /* htcBack.jpg */,
+				70C16BDC23823566009E596E /* htcFront.jpg */,
+				70C16BDB23823566009E596E /* oppoBack.jpg */,
+				70C16BE123823566009E596E /* oppoFront.jpg */,
+				70C16BDF23823566009E596E /* redmiBack.jpg */,
+				70C16BD923823566009E596E /* redmiFront.jpg */,
+				70C16BE023823566009E596E /* samsung10Front.jpg */,
+				70C16BD823823566009E596E /* SamsungS10Back.jpg */,
+				70C16BE323823566009E596E /* vivoBack.jpg */,
+				70C16BDA23823566009E596E /* vivoFront.jpg */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +257,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				5502F228237CA2BE0068C1F7 /* LaunchScreen.storyboard in Resources */,
+				70C16BD62382333C009E596E /* vivo.png in Resources */,
+				70C16BE623823566009E596E /* vivoFront.jpg in Resources */,
+				70C16BD22382332E009E596E /* oppo.png in Resources */,
+				70C16BD023823327009E596E /* mi.png in Resources */,
+				70C16BEC23823566009E596E /* samsung10Front.jpg in Resources */,
+				70C16BEF23823566009E596E /* vivoBack.jpg in Resources */,
 				5502F225237CA2BE0068C1F7 /* Assets.xcassets in Resources */,
-				70C16B832381ED80009E596E /* Icons in Resources */,
+				70C16BED23823566009E596E /* oppoFront.jpg in Resources */,
+				70C16BD423823335009E596E /* samsung.png in Resources */,
+				70C16BC423823277009E596E /* apple-logo.png in Resources */,
+				70C16BE923823566009E596E /* appleFront.jpg in Resources */,
+				70C16BE523823566009E596E /* redmiFront.jpg in Resources */,
+				70C16BEB23823566009E596E /* redmiBack.jpg in Resources */,
+				70C16BE423823566009E596E /* SamsungS10Back.jpg in Resources */,
+				70C16BEA23823566009E596E /* appleBack.jpg in Resources */,
+				70C16BCE238232EC009E596E /* htc.png in Resources */,
+				70C16BF12382386F009E596E /* AboutUsData.html in Resources */,
+				70C16BEE23823566009E596E /* htcBack.jpg in Resources */,
 				5502F223237CA2BD0068C1F7 /* Main.storyboard in Resources */,
+				70C16BE723823566009E596E /* oppoBack.jpg in Resources */,
+				70C16BE823823566009E596E /* htcFront.jpg in Resources */,
+				70C16BCC238232E3009E596E /* profilePic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

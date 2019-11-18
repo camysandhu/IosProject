@@ -26,6 +26,12 @@ class PaymentViewController: UIViewController {
         self.totalAmountLbl.text = String(Cart.cartAccess.totalPrice).addingDollar()
        
     }
+    func addProductOrderedList(){
+        //Adding order ID
+        let list = Cart.cartAccess.productList
+        Cart.cartAccess.orderedProductList.append(list)
+        Cart.cartAccess.productList.removeAll()
+    }
 }
    
    

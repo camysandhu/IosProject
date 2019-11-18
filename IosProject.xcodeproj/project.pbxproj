@@ -28,6 +28,7 @@
 		70C16BB42382167B009E596E /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BB32382167B009E596E /* AddToCartViewController.swift */; };
 		70C16BB623821688009E596E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BB523821688009E596E /* Cart.swift */; };
 		70C16BB823821A33009E596E /* CartItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BB723821A33009E596E /* CartItemTableViewCell.swift */; };
+		70C16BBA23821B0E009E596E /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BB923821B0E009E596E /* PaymentViewController.swift */; };
 		9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		70C16BB32382167B009E596E /* AddToCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
 		70C16BB523821688009E596E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		70C16BB723821A33009E596E /* CartItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemTableViewCell.swift; sourceTree = "<group>"; };
+		70C16BB923821B0E009E596E /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		9B0A80A4237F74E70046DCA3 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				5502F226237CA2BE0068C1F7 /* LaunchScreen.storyboard */,
 				9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */,
 				70C16BA52381FC59009E596E /* MenuTableViewController.swift */,
+				70C16BB923821B0E009E596E /* PaymentViewController.swift */,
 				5502F229237CA2BE0068C1F7 /* Info.plist */,
 				9B0A80A4237F74E70046DCA3 /* iphone.png */,
 			);
@@ -218,6 +221,7 @@
 				70C16BB023821137009E596E /* ProductDetailsViewController.swift in Sources */,
 				5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */,
 				70C16BAE2382112A009E596E /* ProductsListViewController.swift in Sources */,
+				70C16BBA23821B0E009E596E /* PaymentViewController.swift in Sources */,
 				70C16BA22381FC2E009E596E /* SignUpViewController.swift in Sources */,
 				70C16BB623821688009E596E /* Cart.swift in Sources */,
 				70C16BB223821146009E596E /* Products.swift in Sources */,

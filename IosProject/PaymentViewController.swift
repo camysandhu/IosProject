@@ -9,7 +9,9 @@
 import UIKit
 
 class PaymentViewController: UIViewController {
-
+    @IBOutlet weak var totalAmountLbl: UILabel!
+    @IBOutlet weak var shippingAddressLbl: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

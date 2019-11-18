@@ -66,11 +66,10 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
             
             
 
-            @objc func BackToHome(){
-                let homeVC = sb.instantiateViewController(withIdentifier: "menuVC") as! MenuTableViewController
-                self.navigationController?.pushViewController(homeVC, animated: true)
-            }
-            
+             @objc func BackToHome(){
+                           let homeVC = sb.instantiateViewController(withIdentifier: "menuVC") as! MenuTableViewController
+                           self.navigationController?.pushViewController(homeVC, animated: true)
+                       }
 
         }
 

@@ -25,6 +25,8 @@
 		70C16BAE2382112A009E596E /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BAD2382112A009E596E /* ProductsListViewController.swift */; };
 		70C16BB023821137009E596E /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BAF23821137009E596E /* ProductDetailsViewController.swift */; };
 		70C16BB223821146009E596E /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BB123821146009E596E /* Products.swift */; };
+		70C16BB42382167B009E596E /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BB32382167B009E596E /* AddToCartViewController.swift */; };
+		70C16BB623821688009E596E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C16BB523821688009E596E /* Cart.swift */; };
 		9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		70C16BAD2382112A009E596E /* ProductsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
 		70C16BAF23821137009E596E /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		70C16BB123821146009E596E /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		70C16BB32382167B009E596E /* AddToCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		70C16BB523821688009E596E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		9B0A80A4237F74E70046DCA3 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +99,7 @@
 				5502F221237CA2BD0068C1F7 /* Main.storyboard */,
 				5502F224237CA2BE0068C1F7 /* Assets.xcassets */,
 				70C16B9F2381FC29009E596E /* LoginViewController.swift */,
+				70C16BB523821688009E596E /* Cart.swift */,
 				3998A392237FC7A10098B9D6 /* iphone.png */,
 				70C16BAD2382112A009E596E /* ProductsListViewController.swift */,
 				70C16B9D2381FBDF009E596E /* UpdateProfileViewController.swift */,
@@ -104,6 +109,7 @@
 				70C16BA32381FC44009E596E /* verfyingValidations.swift */,
 				70C16BA12381FC2D009E596E /* SignUpViewController.swift */,
 				70C16BB123821146009E596E /* Products.swift */,
+				70C16BB32382167B009E596E /* AddToCartViewController.swift */,
 				5502F226237CA2BE0068C1F7 /* LaunchScreen.storyboard */,
 				9BE7C8BA237E1778007AC2C2 /* WelcomeViewController.swift */,
 				70C16BA52381FC59009E596E /* MenuTableViewController.swift */,
@@ -209,10 +215,12 @@
 				5502F21C237CA2BD0068C1F7 /* AppDelegate.swift in Sources */,
 				70C16BAE2382112A009E596E /* ProductsListViewController.swift in Sources */,
 				70C16BA22381FC2E009E596E /* SignUpViewController.swift in Sources */,
+				70C16BB623821688009E596E /* Cart.swift in Sources */,
 				70C16BB223821146009E596E /* Products.swift in Sources */,
 				5502F21E237CA2BD0068C1F7 /* SceneDelegate.swift in Sources */,
 				70C16B9C2381FBD8009E596E /* MyAccountViewController.swift in Sources */,
 				70C16B9E2381FBDF009E596E /* UpdateProfileViewController.swift in Sources */,
+				70C16BB42382167B009E596E /* AddToCartViewController.swift in Sources */,
 				9BE7C8BF237E1778007AC2C2 /* WelcomeViewController.swift in Sources */,
 				70C16B852381ED8E009E596E /* ItemsListCollectionViewCell.swift in Sources */,
 			);

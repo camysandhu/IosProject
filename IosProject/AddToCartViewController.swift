@@ -41,12 +41,13 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
                 return 280.0
             }
             
-            func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-                if editingStyle == .delete {
-                    print("Deleted")
-                    
-                }
-            }
+               func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+                         if editingStyle == .delete {
+                             print("Deleted")
+                             excessProductList.productList.remove(at: indexPath.row)
+                             tableView.deleteRows(at: [indexPath], with: .automatic)
+                         }
+                     }
             
             
 

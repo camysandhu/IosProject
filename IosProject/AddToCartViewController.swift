@@ -27,6 +27,12 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
             
             func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
                   let cartCell = tableView.dequeueReusableCell(withIdentifier: "itemCartCell") as! CartItemTableViewCell
+                cartCell.cartImageView.image = UIImage(named: excessProductList.productList[indexPath.row].productFImage)
+                               cartCell.cartName.text = excessProductList.productList[indexPath.row].productName
+                               cartCell.cartQuantity.text = String(excessProductList.productList[indexPath.row].productQuantity)
+                               cartCell.cartPrice.text = String(excessProductList.productList[indexPath.row].productPrice).addingDollar()
+                               Cart.cartAccess.totalPrice = Int(excessProductList.productList[indexPath.row].productPrice * Float(excessProductList.productList[indexPath.row].productQuantity))
+                               cartCell.cartTotalPrice.text = String(Cart.cartAccess.totalPrice).addingDollar()
                 return cartCell
 
             }

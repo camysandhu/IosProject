@@ -37,7 +37,9 @@ class OrderViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         return orderCell
     }
     
- 
+ func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+     return 350.0
+ }
     
 
     

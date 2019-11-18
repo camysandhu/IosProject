@@ -80,6 +80,26 @@ class ProductsListViewController: UIViewController, UICollectionViewDataSource, 
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! ProductDetailsViewController
+        switch self.passImageParameter
+        {
+        case 0:
+            destination.proDetailObject = productClass.productdetails[2222]!
+        case 1:
+            destination.proDetailObject = productClass.productdetails[3333]!
+        case 2:
+            destination.proDetailObject = productClass.productdetails[4444]!
+        case 3:
+            destination.proDetailObject = productClass.productdetails[5555]!
+        case 4:
+            destination.proDetailObject = productClass.productdetails[6666]!
+        case 5:
+            destination.proDetailObject = productClass.productdetails[7777]!
+        default:
+            print("Invalid")
+        }
+    }
     
 
 }

@@ -48,6 +48,21 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
                              tableView.deleteRows(at: [indexPath], with: .automatic)
                          }
                      }
+    @objc func OrderedPlaced(){
+        if excessProductList.productList.count > 0{
+        let alert = UIAlertController(title: "Payment", message: "Do you want to place order and procced with Payment?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: {action in
+            let sb1 = UIStoryboard(name: "Main", bundle: nil)
+            let orderVC = sb1.instantiateViewController(withIdentifier: "PaymentVC") as! PaymentViewController
+            self.navigationController?.pushViewController(orderVC, animated: true) }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alert,animated: true)
+        }else{
+            let alert = UIAlertController(title: "ALERT", message: "There is no item to place order.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert,animated: true)
+        }
+    }
             
             
 

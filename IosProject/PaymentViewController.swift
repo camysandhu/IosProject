@@ -11,7 +11,10 @@ import UIKit
 class PaymentViewController: UIViewController {
     @IBOutlet weak var totalAmountLbl: UILabel!
     @IBOutlet weak var shippingAddressLbl: UITextField!
-    
+    @IBOutlet weak var cvvTxt: UITextField!
+    @IBOutlet weak var cardNumberTxt: UITextField!
+    @IBOutlet weak var cvvLbl: UILabel!
+    @IBOutlet weak var cardNumberLbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         

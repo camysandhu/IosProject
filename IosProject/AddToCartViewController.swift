@@ -11,7 +11,7 @@ import UIKit
 class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewDataSource  {
     @IBOutlet weak var AddToCartTableView: UITableView!
     let sb = UIStoryboard(name: "Main", bundle: nil)
-  
+    var excessProductList = Cart.cartAccess
     override func viewDidLoad() {
         super.viewDidLoad()
          self.AddToCartTableView.delegate = self
@@ -26,7 +26,7 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
             }
             
             func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-                var cell = 
+                var cell =
                 return cell
 
             }

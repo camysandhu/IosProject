@@ -20,7 +20,7 @@ class OrderViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         self.navigationController?.pushViewController(homeVC, animated: true)
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        print(excessProductList.orderedProductList.count)
         return excessProductList.orderedProductList.count
     }
     

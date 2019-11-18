@@ -22,12 +22,12 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
             }
             
             func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-                return 1
+                return excessProductList.productList.count
             }
             
             func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-                var cell =
-                return cell
+                  let cartCell = tableView.dequeueReusableCell(withIdentifier: "itemCartCell") as! CartItemTableViewCell
+                return cartCell
 
             }
             

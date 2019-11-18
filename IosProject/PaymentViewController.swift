@@ -9,6 +9,7 @@
 import UIKit
 
 class PaymentViewController: UIViewController {
+    let getUserAddress = UserDefaults.standard
     @IBOutlet weak var totalAmountLbl: UILabel!
     @IBOutlet weak var shippingAddressLbl: UITextField!
     @IBOutlet weak var cvvTxt: UITextField!
@@ -21,7 +22,7 @@ class PaymentViewController: UIViewController {
         self.cvvLbl.isHidden = true
         self.cvvTxt.isHidden = true
         self.cardNumberTxt.isHidden = true
-      
+        self.shippingAddressLbl.text = self.getUserAddress.string(forKey: "address")
         self.totalAmountLbl.text = String(Cart.cartAccess.totalPrice).addingDollar()
        
     }

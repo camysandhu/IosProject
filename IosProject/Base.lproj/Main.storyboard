@@ -686,7 +686,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YgX-Rn-SNj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.081134370306444117" green="0.14775194678704315" blue="0.26788546954314718" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jym-lA-iSf">
                                     <size key="itemSize" width="179" height="184"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -1116,8 +1116,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="tintColor" red="0.58720223540000005" green="0.96130555870000001" blue="0.95767424940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.55420577530000004" green="0.83099454640000003" blue="0.98433297870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="cartImageView" destination="Vfa-sQ-xFt" id="Pex-SA-DPS"/>
                                             <outlet property="cartName" destination="UOp-HA-P0A" id="YcE-DY-gN8"/>

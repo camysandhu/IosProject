@@ -172,7 +172,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88876038909083821" green="0.59978113643034625" blue="0.89513843911917101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Xfi-98-WvJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="eXc-C0-PWs"/>
@@ -660,7 +660,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.069195248190000003" green="1" blue="0.94902163740000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.042081231591588095" green="0.67956606217616589" blue="0.64669247755103887" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="ViR-pq-K1U"/>
                     </view>
                     <connections>
@@ -675,10 +675,10 @@
             </objects>
             <point key="canvasLocation" x="-430" y="-642"/>
         </scene>
-        <!--Products List View Controller-->
+        <!--Products List view Controller-->
         <scene sceneID="o28-qh-y25">
             <objects>
-                <viewController id="lfc-Mw-QQz" customClass="ProductsListViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Products List view Controller" id="lfc-Mw-QQz" customClass="ProductsListViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bS8-C2-qYH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -686,7 +686,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YgX-Rn-SNj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.081134370306444117" green="0.14775194678704315" blue="0.26788546954314718" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jym-lA-iSf">
                                     <size key="itemSize" width="179" height="184"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -1012,14 +1012,14 @@
                                 <rect key="frame" x="88" y="783" width="250" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Place Order">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="placeOrderBtn:" destination="7Kz-fS-hZn" eventType="touchUpInside" id="UQd-JU-lAW"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.00060167166749999995" green="0.49331737219999999" blue="0.57739637310000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="cFF-eE-3O8"/>
                     </view>
                     <connections>
@@ -1116,8 +1116,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="tintColor" red="0.58720223540000005" green="0.96130555870000001" blue="0.95767424940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.55420577530000004" green="0.83099454640000003" blue="0.98433297870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="cartImageView" destination="Vfa-sQ-xFt" id="Pex-SA-DPS"/>
                                             <outlet property="cartName" destination="UOp-HA-P0A" id="YcE-DY-gN8"/>
@@ -1153,7 +1154,7 @@
         <image name="shopping2x" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0up-KX-kgN"/>
+        <segue reference="WJU-on-Vbs"/>
         <segue reference="J6D-4D-o4P"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -675,10 +675,10 @@
             </objects>
             <point key="canvasLocation" x="-430" y="-642"/>
         </scene>
-        <!--Products List View Controller-->
+        <!--Products List view Controller-->
         <scene sceneID="o28-qh-y25">
             <objects>
-                <viewController id="lfc-Mw-QQz" customClass="ProductsListViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Products List view Controller" id="lfc-Mw-QQz" customClass="ProductsListViewController" customModule="IosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bS8-C2-qYH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

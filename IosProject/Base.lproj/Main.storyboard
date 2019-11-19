@@ -172,7 +172,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88876038909083821" green="0.59978113643034625" blue="0.89513843911917101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Xfi-98-WvJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="eXc-C0-PWs"/>
